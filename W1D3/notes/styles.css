@@ -1,0 +1,148 @@
+/* id selector > class selector > element selector */
+.blue {
+  color: blue;
+  /* color: #00ffff; */
+  /* color: rgb(255, 255, 0); */
+}
+
+h1 {
+  color: green;
+}
+
+h1 {
+  color: red;
+}
+
+body {
+  /* color: red; */
+  font-size: 20px;
+}
+
+.box {
+  height: 100px;
+  /* width: 100px; */
+  /* width: 20%; */
+  width: 3em;
+  padding: 20px;
+  margin: 50px;
+  border: 10px solid black;
+  background-color: red;
+}
+.box2 {
+  height: 200px;
+  width: 200px;
+  padding: 30px;
+  margin: 60px;
+  border: 20px solid black;
+  background-color: greenyellow;
+}
+.box3 {
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+  margin: 20px;
+  border: 30px solid black;
+  background-color: pink;
+}
+
+/* id selector */
+#test {
+  color: maroon;
+  text-align: center;
+  /* line-height: 2; */
+  letter-spacing: 4px;
+  word-spacing: 20px;
+}
+
+.font-styles {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.paragraph {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: circle;
+  /* list-style-type: none; */
+  /* list-style-type: square; */
+
+  /* remove the bullet from the list */
+  margin: 0;
+  padding: 0;
+}
+
+.box-model {
+  border: 1px solid red;
+  height: 50px;
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+}
+
+th,
+td {
+  /* border: 1px solid #ccc; */
+  border-bottom: 1px solid #ccc;
+  padding: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 60%;
+}
+
+td {
+  text-align: center;
+}
+
+.content-1 {
+  border: 1px solid red;
+  display: inline; /* set to inline element */
+}
+.content-2 {
+  border: 1px solid blue;
+  display: block; /* set to block element */
+
+  /* hide the element*/
+  /* display: none;  */
+}
+
+.position-1 {
+  border: 1px solid red;
+  /* position: static; */
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+.position-4 {
+  border: 1px solid red;
+  /* position: static; */
+  position: sticky;
+  top: 50px;
+  left: 50px;
+}
+
+.position-2 {
+  border: 1px solid blue;
+  /* place the element at the bottom right of the screen*/
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+.position-3 {
+  border: 1px solid blue;
+  /* place the element at the bottom right of the parent element*/
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.container {
+  position: relative;
+  width: 200px;
+  height: 2000px;
+  border: 1px solid black;
+}
