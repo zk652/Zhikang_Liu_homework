@@ -93,3 +93,11 @@ const includes2 = arr.includes(2);
 console.log(includes2);
 const includes4 = arr.includes(4);
 console.log(includes4);
+
+const person1 = {
+  name: "JAck",
+  age: 10,
+};
+
+const person2 = person1;
+console.log("hello", person1 === person2);
