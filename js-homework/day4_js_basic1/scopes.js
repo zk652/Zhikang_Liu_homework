@@ -14,8 +14,8 @@ function localScope() {
   var localVar = "I am local to this function";
 }
 
-// localScope();
-// console.log(localVar); // What happens here and why?
+localScope();
+console.log(localVar); // What happens here and why?
 
 // Block scope
 if (true) {
@@ -31,12 +31,12 @@ function loopScope() {
   for (var i = 0; i < 3; i++) {
     // console.log(i); // Outputs during loop?
   }
-  //   console.log("After loop with var: " + i); // What happens here?
+  // console.log("After loop with var: " + i); // What happens here?
 
   for (let j = 0; j < 3; j++) {
     console.log(j); // Outputs during loop?
   }
-  //   console.log("After loop with let: " + j); // What happens here?
+  // console.log("After loop with let: " + j); // What happens here?
 }
 
 loopScope();
