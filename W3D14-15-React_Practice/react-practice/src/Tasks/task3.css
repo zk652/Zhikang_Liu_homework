@@ -1,0 +1,31 @@
+.container {
+  text-align: center;
+  background-color: rgb(245, 245, 202);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.restart {
+  color: white;
+  background-color: rgb(110, 152, 241);
+  border: none;
+  width: 100px;
+  height: 30px;
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  border: solid 1px;
+  cursor: pointer;
+}

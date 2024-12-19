@@ -1,0 +1,13 @@
+.container {
+  justify-self: center;
+}
+table {
+  width: 500px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
