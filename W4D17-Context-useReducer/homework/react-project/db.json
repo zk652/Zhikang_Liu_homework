@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "title": "Complete React App",
+      "completed": false
+    },
+    {
+      "id": "2",
+      "title": "Read about Context API",
+      "completed": false
+    },
+    {
+      "id": "c787",
+      "title": "aaa",
+      "completed": false
+    }
+  ]
+}
