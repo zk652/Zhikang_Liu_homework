@@ -1,7 +1,11 @@
 import { useDispatch, useSelector } from "react-redux";
 import Todo from "./Todo";
-import { useState } from "react";
-import { addTodo, removeCheckedTodos } from "../redux/todo/todoActions";
+import { useEffect, useState } from "react";
+import {
+  addTodo,
+  fetchTodos,
+  removeCheckedTodos,
+} from "../redux/todo/todoActions";
 import ProgressBar from "./ProgressBar";
 
 export default function TodoList() {
@@ -9,10 +13,14 @@ export default function TodoList() {
   const completedTodos = todos.filter((todo) => todo.completed).length;
   const [newTask, setNewTask] = useState("");
   const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchTodos());
+  }, [dispatch]);
+
   const handleAdd = () => {
     dispatch(
       addTodo({
-        id: todos[todos.length - 1].id + 1,
+        id: String(+todos[todos.length - 1].id + 1),
         task: newTask,
         completed: false,
       })

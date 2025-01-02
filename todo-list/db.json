@@ -1,0 +1,29 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "task": "read the book",
+      "completed": false
+    },
+    {
+      "id": "2",
+      "task": "buy dog food",
+      "completed": true
+    },
+    {
+      "id": "3",
+      "task": "call my parents",
+      "completed": false
+    },
+    {
+      "id": "4",
+      "task": "clean my working place",
+      "completed": true
+    },
+    {
+      "id": "5",
+      "task": "kill bill",
+      "completed": true
+    }
+  ]
+}
