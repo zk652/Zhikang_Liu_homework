@@ -1,0 +1,39 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "task": "read a book",
+      "date": "1/2/2033",
+      "completed": false,
+      "description": "This is task 1"
+    },
+    {
+      "id": "2",
+      "task": "buy dog food",
+      "date": "2/5/2033",
+      "completed": true,
+      "description": "This is task 2"
+    },
+    {
+      "id": "3",
+      "task": "call my parents",
+      "date": "5/1/2033",
+      "completed": false,
+      "description": "This is task 3"
+    },
+    {
+      "id": "4",
+      "task": "clean my working place",
+      "date": "9/10/2033",
+      "completed": true,
+      "description": "This is task 4"
+    },
+    {
+      "id": "5",
+      "task": "eat",
+      "date": "2025-01-07T19:49:29.958Z",
+      "description": "eat lunch",
+      "completed": false
+    }
+  ]
+}

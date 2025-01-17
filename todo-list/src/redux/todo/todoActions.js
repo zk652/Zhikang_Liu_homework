@@ -48,7 +48,6 @@ export const toggleTodo = (id) => async (dispatch, getState) => {
   const response = await axios.patch(`${apiUrl}/${id}`, {
     completed: !todo.completed,
   });
-  console.log(response);
   dispatch({
     type: TOGGLE_TODO,
     payload: response.data,
